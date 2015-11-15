@@ -11,12 +11,12 @@ Download the latest distribution ZIP-file and consult the
 
 `$ gittio install com.falkolab.svgproduct`
 
+Also you must install `com.geraudbourdin.svgview`.
+
 ## Usage
 
 This module provide functionality for convert SVG to image based on configuration.
 Also support result caching.
-
-Also you must install `com.geraudbourdin.svgview`.
 
 
 ### Practice example
