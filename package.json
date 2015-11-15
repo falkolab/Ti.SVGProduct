@@ -1,0 +1,35 @@
+{
+    "name": "titanium-svgproduct",
+    "version": "1.0.0",
+    "description": "Image generator from SVG source for Titanium SDK",
+    "main": "svgproduct.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "titaniumManifest": {
+        "name": "SVG Product",
+        "moduleid": "com.falkolab.svgproduct",
+        "guid": "6f2f49e2-cba2-2afb-1ee2-6d9e637aa5ca"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/falkolab/Ti.SVGProduct"
+    },
+    "keywords": [
+        "titanium",
+        "titaniumifier",
+        "svg",
+        "image"
+    ],
+    "author": "Andrey Tkachenko",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/falkolab/Ti.SVGProduct/issues"
+    },
+    "homepage": "https://github.com/falkolab/Ti.SVGProduct#readme",
+    "nativeDependencies": {
+    },
+    "peerDependencies": {
+        "com.geraudbourdin.svgview": "*"
+    }
+}
