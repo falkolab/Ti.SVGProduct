@@ -34,15 +34,17 @@ First create config file in `appc/lib/svgProductConfig.js`:
 	    }
     };
 
-For more complex example see `example.js`
+For more complex examples see `example.js`.
 
-
-Add foloving code to `app/alloy.js`:
+Add following code to `app/alloy.js`:
 
     var svgProductConfig = require('svgProductConfig');
-    Alloy.Globals.SVGProducts = require('SVGProduct').getProducts(svgProductConfig, true /*forceCache*/);
+    Alloy.Globals.SVGProducts = require('SVGProduct').getProducts(
+        svgProductConfig, true /*forceCache*/
+        );
 
-Second argument makes caching imideately. Leave it blank or set to `false` if you need caching in place when it needed.
+Second argument makes caching immediately. Leave it blank or set to `false`
+if you need to cache in place when it needed.
 
 Now you can use it in `index.tss` for example:
 
