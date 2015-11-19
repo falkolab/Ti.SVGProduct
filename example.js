@@ -54,9 +54,9 @@ exports.config = {
     		height : 38
     	}),
     // load from file and change color
-    'fromFile_red': {
-        image: loadFromFileAndChangeColor(),
-        width : 50,
-        height : 50
-    }
+    'fromFile_red': svgProduct.cachedDynamicSVGAdapter(loadFromFileAndChangeColor,
+		{
+        	width : 50,
+        	height : 50
+    	})
 };
